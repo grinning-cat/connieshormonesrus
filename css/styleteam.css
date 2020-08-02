@@ -366,6 +366,11 @@ body {
 	width: 60%;
 }
 }
+@media screen and (max-width: 800px)
+{.all {
+	width: 83%;
+}
+}
 .light {
 	font-weight: 300;
 	text-align: left;
@@ -421,6 +426,15 @@ margin-left:5px;
   height: 30px;
 }
 }
+@media screen and (max-width: 800px)
+{.navbutton {
+	font-size: small;
+  font-weight: bold;
+  padding-top: 5px;
+  width: 19%;
+  height: 30px;
+}
+}
 
 /*XXXXXXXXXXXXXXXXX  dropdown start  XXXXXXXXXXXXXXXX*/
 
@@ -446,7 +460,19 @@ margin-left:5px;
   min-width: 50px;
 }
 }
+@media screen and (max-width: 800px)
+{.dropdown-content {
+	font-size: small;
+  font-weight: bold;
+  min-width: 50px;
+}
+}
 @media screen and (max-width: 600px)
+{.dropdown-content a{
+	padding: 6px 5px;
+}
+}
+@media screen and (max-width: 800px)
 {.dropdown-content a{
 	padding: 6px 5px;
 }
@@ -517,9 +543,19 @@ margin-left:5px;
 	width: 100%;
 }
 }
+@media screen and (max-width: 800px)
+{.headerbox img{
+	width: 100%;
+}
+}
 @media screen and (max-width: 600px)
 {.headerbox {
 	height: 130px;
+}
+}
+@media screen and (max-width: 800px)
+{.headerbox {
+	height: 180px;
 }
 }
 
@@ -532,6 +568,11 @@ margin-left:5px;
 @media screen and (max-width: 600px)
 {.headerboxfaq {
 	height: 130px;
+}
+}
+@media screen and (max-width: 800px)
+{.headerboxfaq {
+	height: 150px;
 }
 }
 
@@ -576,6 +617,18 @@ margin-left:5px;
   padding-top: 10px;
   padding-left:5px;
   padding-right:5px;
+  border-radius: 90px;
+  float: left;
+}
+}
+@media screen and (max-width: 800px)
+{.faqbutton {
+ height: 23px;
+  font-weight: bold;
+  font-size: x-small;
+  padding-top: 10px;
+  padding-left:7px;
+  padding-right:7px;
   border-radius: 90px;
   float: left;
 }
@@ -646,6 +699,16 @@ margin-left:5px;
  margin: 2px 5px;
 }
 }
+@media screen and (max-width: 800px)
+{.button {
+ padding-top: 5px;
+ padding-bottom: 5px;
+ font-weight: bold;
+ font-size: small;
+ height: 32px;
+ margin: 2px 2px;
+}
+}
 .buttontwo {
 	 border: 2px solid white;
 	 color: white;
@@ -689,6 +752,11 @@ margin-left:5px;
 	font-size: 18px;
 }
 }
+@media screen and (max-width: 600px)
+{.dividertext{
+	font-size: 20px;
+}
+}
 .fancy {
   font-family: playball;
   color: #3a616d;
@@ -708,6 +776,7 @@ margin-left:5px;
   font-family: "Nunito";
 font-weight: 400;
 }
+
 .subthree1 {
 	width: 60%;
 	padding: 30px;
@@ -719,6 +788,7 @@ font-weight: 400;
   margin: auto;
 }
 }
+
 .textbit{
   width: 95%
   margin:auto;
@@ -738,6 +808,13 @@ font-weight: 400;
 	display: none;
 }
 }
+@media screen and (max-width: 800px)
+{.subthree2 {
+	width: 29%;
+  height: auto;
+}
+}
+
 
 .leftfree {
   clear: left;
@@ -778,6 +855,7 @@ font-weight: 400;
   	width: 55%;
     text-align: center;
   	margin: auto;
+    clear: left;
   }
 
   ul li {
@@ -828,6 +906,11 @@ opacity: 0.8;
   margin-right: 40px;
 }
 @media screen and (max-width: 600px)
+{img{
+	width: 100%;
+}
+}
+@media screen and (max-width: 800px)
 {img{
 	width: 100%;
 }
